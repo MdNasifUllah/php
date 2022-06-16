@@ -38,9 +38,9 @@
         'Saif'=>30   
     ];
 
-    foreach[ $students as $name=>$roll]
+    foreach($students as $name=>$roll)
     {
-        echo 
+        echo 'name: ' . $name. ',' . 'Roll: ' .$roll ; 
     }
 ?>
 
